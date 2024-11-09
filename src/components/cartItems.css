@@ -1,0 +1,120 @@
+.CartItems{
+    margin: 100px 170px;
+}
+.CartItems hr{
+    height: 2px;
+    margin-bottom: 15px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: rgb(201, 192, 192);
+    border: 0;
+}
+.main{
+display: grid;
+grid-template-columns: .0fr 2fr 1fr 1fr 1fr 1fr;
+align-items: center;
+gap: 75px;
+/* text-decoration: underline; */
+padding: 20px 0;
+color: rgb(53, 44, 44);
+font-size: 18px;
+font-weight: 600;
+}
+.format{
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.cartIconProcuctIcon{
+    height: 62px;
+
+}
+.removI{
+width: 15px;
+margin: 0 40px;
+cursor: pointer;
+margin-left: 2.5cm;
+}
+button{
+    width: 64px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 2cm;
+    border: 1px solid darkblue;
+}
+.cart-items-down{
+    display: flex;
+    margin: 100px 0;
+}
+.total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+}
+.total p{
+    margin: 0;
+    font-size: 20px
+}
+.total-items{
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 0;
+}
+.total-items button{
+    width: 262px;
+    height: 55px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.promo{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.promo p{
+    color: rgb(39, 63, 63);
+}
+.promo-box{
+    display: flex;
+    width: 504px;
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 58px;
+    background: #eaeaea;
+}
+input{
+    border: none;
+    padding: 0;
+    outline: none;
+    background : transparent;
+    font-size: 19px;
+    font-weight: 600;
+    width: 330px;
+    height: 50px;
+}
+input::placeholder{
+    color: rgb(85, 77, 77);
+    font-size: 16px;
+    font-weight: 100            ;
+
+}
+.promo-box button{
+    width: 170px;
+    height: 58px;
+    font-size: 16px;
+    margin: 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

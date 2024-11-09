@@ -1,0 +1,9 @@
+body{
+  overflow: scroll;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 25px;
+}

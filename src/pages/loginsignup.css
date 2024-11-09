@@ -1,0 +1,77 @@
+.LoginSignup{
+    margin-bottom: 2.5cm;
+    width: 100%;
+    height: 80vh;
+    background: white;
+    padding-top: 100px;
+}
+.login-container{
+    width: 580px;
+    height: 800px;
+    background: wheat;
+    margin: auto;
+    padding: 40px 60px;
+}
+.login-container h1{
+    margin: 10px 0;
+}
+.loginFields{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: auto;
+    margin-top: 30px;
+}
+.loginFields input{
+    height: 72px;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid rgb(40, 29, 8);
+    outline: none;
+    columns: #5c5c5c;
+    font-size: 18px;
+}
+.login-container button{
+width: 480px;
+height: 62px;
+color: white;
+background-color: red;
+margin: 10 35px;
+border: none;
+font-size: 24px;
+font-weight: 500;
+cursor: pointer;
+}
+.lgl{
+    margin-top: 30px;
+    color: #5c5c5c;
+    font-size: 20px;
+    font-weight: 500;
+}
+.lgl span{
+    color: red;
+    font-weight: 600;
+}
+.agree{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+    margin-top: 25px;
+    
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.agree input{
+    height: 22px;
+    width: 22px;
+    margin-left: 0;
+}
+.p{
+    margin-left: 20px;
+    text-decoration: underline;
+}
