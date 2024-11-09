@@ -1,8 +1,9 @@
-# React + Vite
+# A Frontend E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here, the store provides a wide range of colthes which includes Men's, women's as well as Kids category.
 
-Currently, two official plugins are available:
+You can add Products to cart as well.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+this is a simple project made using libraries such as context api and react-router-dom.
+
+
